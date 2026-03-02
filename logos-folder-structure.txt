@@ -1,9 +1,0 @@
-logos/
-├── silver_logo_3d.png           # شعار ثلاثي الأبعاد متوهج
-├── silver_logo_cyberpunk.png     # شعار سايبربانك نيون
-├── silver_logo_minimalist.png    # شعار مينيماليست
-├── favicon.ico                   # أيقونة للمتصفح
-├── favicon.png                   # نفس الأيقونة بصيغة PNG
-├── silver_ascii_logo.txt         # شعار ASCII للطرفية
-├── report_banner.html            # بانر HTML للتقارير
-└── preview.html                  # معاينة جميع الشعارات
