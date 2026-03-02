@@ -1,0 +1,25 @@
+silver-hand-v3/
+├── silverhand/
+│   ├── __init__.py
+│   ├── cli.py                 ⭐ نقطة الدخول الرئيسية
+│   ├── engine.py             ⭐ المحرك v3.0
+│   ├── ai/
+│   │   ├── __init__.py
+│   │   └── chat.py           ⭐ AI غير مراقب
+│   ├── scanner/
+│   │   ├── __init__.py
+│   │   ├── xss_zero_day.py
+│   │   ├── sqli_scanner.py
+│   │   └── takeover_detector.py
+│   ├── visualizer/
+│   │   ├── __init__.py
+│   │   └── capture.py
+│   ├── reporter/
+│   │   ├── __init__.py
+│   │   └── html_report.py
+│   └── themes/
+│       ├── __init__.py
+│       └── blue.py
+├── setup.py
+├── requirements.txt
+└── README.md
