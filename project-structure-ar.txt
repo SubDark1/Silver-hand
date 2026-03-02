@@ -1,0 +1,22 @@
+silver/
+├── silver.py                 # الأداة الرئيسية
+├── requirements.txt          # متطلبات Python
+├── install.sh               # سكريبت التثبيت
+├── run.sh                   # سكريبت التشغيل
+├── README.md                # ملف التعريف
+├── .gitignore               # ملف تجاهل git
+├── config/
+│   └── config.json         # ملف الإعدادات
+├── reports/                 # تقارير الاختراق
+├── loot/                    # الملفات المستخرجة
+│   └── hidden_files/       # الملفات المخفية
+├── logs/                    # سجلات التشغيل
+├── payloads/
+│   ├── sqli.txt            # حمولات SQL injection
+│   └── xss.txt             # حمولات XSS
+├── wordlists/
+│   ├── directories.txt     # قائمة المجلدات
+│   └── sensitive_files.txt # قائمة الملفات الحساسة
+├── db/                      # قاعدة البيانات
+├── cache/                   # ملفات الكاش
+└── modules/                 # وحدات إضافية (فارغ)

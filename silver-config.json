@@ -1,0 +1,104 @@
+{
+    "version": "5.0.0",
+    "developer": "SayerLinux",
+    "email": "SaudiLinux1@gmail.com",
+    
+    "stealth": {
+        "enabled": true,
+        "random_delay": true,
+        "min_delay": 0.5,
+        "max_delay": 3.0,
+        "random_headers": true,
+        "random_user_agent": true
+    },
+    
+    "anonymity": {
+        "tor": {
+            "enabled": true,
+            "port": 9050,
+            "control_port": 9051,
+            "new_circuit_per_request": true,
+            "max_circuits": 100
+        },
+        "proxy": {
+            "enabled": true,
+            "rotation_interval": 30,
+            "types": ["http", "https", "socks4", "socks5"],
+            "countries": ["US", "GB", "DE", "FR", "NL", "CA", "AU", "JP", "SG", "BR"],
+            "max_proxies": 1000
+        },
+        "vpn": {
+            "enabled": false,
+            "countries": ["NL", "SE", "CH", "IS", "RO"],
+            "config_file": "vpn.ovpn"
+        }
+    },
+    
+    "waf_bypass": {
+        "enabled": true,
+        "cloudflare": true,
+        "akamai": true,
+        "incapsula": true,
+        "aws_waf": true,
+        "f5_asm": true,
+        "encoding_techniques": [
+            "base64", "hex", "rot13", "url", "unicode", "html", "javascript"
+        ],
+        "max_variants": 100
+    },
+    
+    "zero_day": {
+        "enabled": true,
+        "ml_detection": true,
+        "behavioral_analysis": true,
+        "heuristic_scanning": true,
+        "fuzzing": true,
+        "max_payloads": 10000,
+        "exploit_generation": true
+    },
+    
+    "scanning": {
+        "max_threads": 200,
+        "timeout": 10,
+        "retries": 5,
+        "backoff": 2,
+        "depth": 10,
+        "follow_redirects": true,
+        "max_redirects": 10,
+        "verify_ssl": false
+    },
+    
+    "api_keys": {
+        "shodan": "",
+        "censys_id": "",
+        "censys_secret": "",
+        "virustotal": "",
+        "greynoise": "",
+        "alienvault": "",
+        "riskiq": "",
+        "passivetotal": "",
+        "securitytrails": "",
+        "hunter": "",
+        "fofa_email": "",
+        "fofa_key": "",
+        "zoomeye": ""
+    },
+    
+    "reporting": {
+        "format": "html",
+        "language": "ar",
+        "include_poc": true,
+        "include_remediation": true,
+        "encrypt_reports": true,
+        "compress_reports": true
+    },
+    
+    "logging": {
+        "level": "INFO",
+        "to_file": true,
+        "to_console": true,
+        "encrypt_logs": true,
+        "max_size_mb": 10,
+        "backup_count": 5
+    }
+}

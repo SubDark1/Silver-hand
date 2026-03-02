@@ -1,0 +1,25 @@
+╔═══════════════════════════════════════════════════════════════════╗
+║                         LEGAL DISCLAIMER                          ║
+╠═══════════════════════════════════════════════════════════════════╣
+║                                                                   ║
+║   THIS SOFTWARE IS PROVIDED FOR EDUCATIONAL AND AUTHORIZED       ║
+║   SECURITY TESTING PURPOSES ONLY.                                ║
+║                                                                   ║
+║   UNAUTHORIZED ACCESS TO COMPUTER SYSTEMS IS ILLEGAL AND         ║
+║   PUNISHABLE BY LAW.                                             ║
+║                                                                   ║
+║   THE DEVELOPER (SayerLinux) ASSUMES NO LIABILITY AND IS NOT     ║
+║   RESPONSIBLE FOR ANY MISUSE OR DAMAGE CAUSED BY THIS PROGRAM.   ║
+║                                                                   ║
+║   BY USING THIS SOFTWARE, YOU AGREE TO:                          ║
+║   • Use it only on systems you own or have written permission    ║
+║   • Comply with all applicable laws and regulations              ║
+║   • Accept full responsibility for your actions                  ║
+║   • Not use it for illegal purposes                              ║
+║                                                                   ║
+║   VIOLATION OF THESE TERMS MAY RESULT IN:                         ║
+║   • Criminal prosecution                                          ║
+║   • Civil liability                                               ║
+║   • Permanent ban from security community                        ║
+║                                                                   ║
+╚═══════════════════════════════════════════════════════════════════╝

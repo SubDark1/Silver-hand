@@ -1,0 +1,16 @@
+Copyright (c) 2024 SayerLinux (SaudiLinux1@gmail.com)
+
+This project is licensed for EDUCATIONAL PURPOSES ONLY.
+
+Redistribution and use in any form, with or without modification,
+is permitted provided that the following conditions are met:
+
+1. The software is used for authorized security testing only
+2. The developer is not held liable for any misuse
+3. Credit is given to the original author
+4. This license notice is included in all copies
+
+Commercial use, redistribution for profit, or use in illegal
+activities is STRICTLY PROHIBITED.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.

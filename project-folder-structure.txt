@@ -1,0 +1,13 @@
+silver/
+├── silver.py          # Main framework
+├── requirements.txt   # Python dependencies
+├── install.sh        # Installation script
+├── run.sh            # Run script
+├── config/           # Configuration files
+├── reports/          # Generated reports
+├── loot/            # Downloaded files
+├── logs/            # Framework logs
+├── payloads/        # Attack payloads
+├── wordlists/       # Directory/file wordlists
+├── db/              # SQLite database
+└── modules/         # Additional modules

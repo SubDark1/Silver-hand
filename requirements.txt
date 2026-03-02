@@ -1,0 +1,89 @@
+silver/
+├── silver.py                 # Main framework
+├── requirements.txt          # Python dependencies
+├── install.sh                # Installation script
+├── run.sh                    # Run script
+├── README.md                  # This file
+├── CHANGELOG.md               # Version history
+├── LICENSE                    # License file
+│
+├── config/
+│   ├── config.json           # Main configuration
+│   ├── wordlists/            # Wordlists directory
+│   │   ├── directories.txt
+│   │   ├── files.txt
+│   │   ├── subdomains.txt
+│   │   └── parameters.txt
+│   └── rules/                # Detection rules
+│       ├── sqli.yara
+│       ├── xss.yara
+│       └── rce.yara
+│
+├── modules/
+│   ├── reconnaissance.py     # Recon module
+│   ├── scanner.py            # Scanner module
+│   ├── waf_bypass.py         # WAF bypass module
+│   ├── zero_day.py           # Zero-day module
+│   ├── exploit_generator.py  # Exploit generator
+│   ├── anonymity.py          # Anonymity module
+│   └── reporting.py          # Reporting module
+│
+├── payloads/
+│   ├── sqli.txt              # SQL injection payloads
+│   ├── xss.txt               # XSS payloads
+│   ├── rce.txt               # RCE payloads
+│   ├── lfi.txt               # LFI payloads
+│   ├── ssrf.txt              # SSRF payloads
+│   └── custom/               # Custom payloads
+│
+├── exploits/
+│   ├── generated/            # Generated exploits
+│   ├── templates/            # Exploit templates
+│   └── zero_day/             # Zero-day exploits
+│
+├── proxies/
+│   ├── proxies.txt           # Proxy list
+│   ├── working.txt           # Working proxies
+│   └── sources.txt           # Proxy sources
+│
+├── tor/
+│   ├── torrc                  # Tor configuration
+│   └── data/                  # Tor data
+│
+├── vpn/
+│   ├── configs/               # VPN configurations
+│   └── auth/                  # VPN authentication
+│
+├── logos/
+│   ├── silver_logo_3d.png     # 3D logo
+│   ├── silver_logo_cyberpunk.png # Cyberpunk logo
+│   ├── silver_logo_minimalist.png # Minimalist logo
+│   ├── favicon.ico            # Favicon
+│   └── silver_ascii_logo.txt  # ASCII logo
+│
+├── reports/
+│   ├── html/                  # HTML reports
+│   ├── pdf/                   # PDF reports
+│   ├── json/                  # JSON exports
+│   └── csv/                   # CSV exports
+│
+├── loot/
+│   ├── credentials/           # Stolen credentials
+│   ├── files/                 # Downloaded files
+│   └── screenshots/           # Screenshots
+│
+├── logs/
+│   ├── silver.log             # Main log
+│   ├── error.log              # Error log
+│   ├── debug.log              # Debug log
+│   └── encrypted/             # Encrypted logs
+│
+├── cache/
+│   ├── dns/                   # DNS cache
+│   ├── http/                  # HTTP cache
+│   └── whois/                 # WHOIS cache
+│
+└── docs/
+    ├── API.md                  # API documentation
+    ├── MODULES.md              # Modules documentation
+    └── EXAMPLES.md             # Usage examples

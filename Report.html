@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+    <title>SILVER Framework - تقرير الاختراق</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .vuln-critical {
+            border-right: 5px solid #dc3545;
+            background: #fff5f5;
+        }
+        .vuln-high {
+            border-right: 5px solid #fd7e14;
+            background: #fff4e5;
+        }
+        .zero-day-badge {
+            background: #dc3545;
+            color: white;
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-size: 12px;
+        }
+        .executive-summary {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        .remediation {
+            background: #d4edda;
+            border: 1px solid #c3e6cb;
+            padding: 15px;
+            border-radius: 5px;
+            color: #155724;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔍 SILVER Framework</h1>
+            <h2>تقرير الاختبار الأمني المتقدم</h2>
+        </div>
+        
+        <div class="executive-summary">
+            <h3>📋 الملخص التنفيذي</h3>
+            <p>تم اكتشاف 15 ثغرة أمنية منها 3 ثغرات من نوع Zero-Day</p>
+            <p>الخطر: عالي جداً - يجب التصحيح الفوري</p>
+        </div>
+        
+        <div class="vuln-critical">
+            <h3>⚠️ ثغرة Zero-Day: SQL Injection</h3>
+            <p><strong>الموقع:</strong> https://example.com/page.php?id=1</p>
+            <p><strong>الوصف:</strong> ثغرة حقن SQL عمياء تعتمد على الوقت</p>
+            <p><strong>الخطورة:</strong> حرجة (CVSS: 9.8)</p>
+            <p><strong>إثبات الاختراق:</strong></p>
+            <pre>
+            وقت الاستجابة: 5.2 ثانية
+            تم استخراج اسم قاعدة البيانات: production_db
+            </pre>
+            <div class="remediation">
+                <strong>الحل المقترح:</strong> استخدام استعلامات معدة مسبقاً (Prepared Statements)
+            </div>
+        </div>
+    </div>
+</body>
+</html>
